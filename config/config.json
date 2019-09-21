@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "app-customizer-place-holder-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/appCustomizerPlaceHolder/AppCustomizerPlaceHolderApplicationCustomizer.js",
+          "manifest": "./src/extensions/appCustomizerPlaceHolder/AppCustomizerPlaceHolderApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AppCustomizerPlaceHolderApplicationCustomizerStrings": "lib/extensions/appCustomizerPlaceHolder/loc/{locale}.js"
+  }
+}
